@@ -1,4 +1,42 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    background: #6b3e26;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    align-items: center;
+    color: #F9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.content {
+    flex: 1;
+    display: flex;
+
 }
